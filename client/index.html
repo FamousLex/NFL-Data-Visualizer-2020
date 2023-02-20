@@ -1,0 +1,31 @@
+<html>
+<head>
+  <script src='ajax.js'></script>
+  <script src='front_end.js'></script>
+  <script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
+</head>
+
+<body onload="getPosition();">
+	<h1>NFL Data (2020)</h1>
+  <p>
+    <label for="positions">Stats By Position:</label><br>
+    <select id="getPosition" onchange="getPosition();">
+      <option value="QB">QB</option>
+      <option value="RB">RB</option>
+      <option value="WR">WR</option>
+      <option value="TE">TE</option>
+    </select>
+    <br>
+    <label for="playerName">Tag Player:</label><br>
+    <input type="text" id="playerName"><br><br>
+      <button onClick="getInputs();">Submit</button>
+  </p>
+  <p>
+    <div id="rosterPercent"></div>
+    <div id="charts1"></div>
+    <div id="charts2"></div>
+    <div id="charts3"></div>
+    <div id="charts4"></div>
+    <div id="charts5"></div>
+</body>
+</html>

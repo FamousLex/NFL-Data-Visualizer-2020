@@ -1,0 +1,28 @@
+{
+  "files": {
+    "client/front_end.js": [
+      {
+        "id": "93a42e4f-423a-4958-be6d-848fa3e26286",
+        "line": 70,
+        "version": 7520,
+        "index": 2166
+      }
+    ],
+    "client/index.html": [
+      {
+        "id": "bf7c8d67-2102-4710-8f8f-55228771df5e",
+        "line": 25,
+        "version": 180,
+        "index": 715
+      }
+    ],
+    "main.py": [
+      {
+        "id": "2408f1c5-06a0-4039-a69b-da1ca8b9fdef",
+        "line": 6,
+        "version": 7,
+        "index": 52
+      }
+    ]
+  }
+}
